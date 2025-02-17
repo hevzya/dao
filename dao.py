@@ -3,7 +3,7 @@ from typing import List, Tuple, Optional
 
 class UserDAO:
     def __init__(self, db_name: str = "database.db"):
-        self.conn = sqlite3.connect(db_name1)
+        self.conn = sqlite3.connect(db_name)
         self.create_table()
 
     def create_table(self):
